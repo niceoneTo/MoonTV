@@ -1,4 +1,12 @@
 {
+    "SiteConfig": {
+        "SiteName": "MoonTV",
+        "Announcement": "本网站仅提供影视信息搜索服务，所有内容均来自第三方网站。",
+        "ImageProxy": "https://images.weserv.nl/?url="
+    },
+    "UserConfig": {
+        "AllowRegister": false
+    },
     "cache_time": 9200,
     "api_site": {
         "api_1": {
