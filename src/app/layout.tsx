@@ -46,7 +46,7 @@ export default async function RootLayout({
     siteName = config.SiteConfig.SiteName;
     announcement = config.SiteConfig.Announcement;
     enableRegister = config.UserConfig.AllowRegister;
-    imageProxy = config.SiteConfig.ImageProxy;
+    imageProxy = 'https://wsrv.nl/?url=';
   }
 
   // 将运行时配置注入到全局 window 对象，供客户端在运行时读取
