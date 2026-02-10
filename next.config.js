@@ -12,6 +12,7 @@ const nextConfig = {
   // Uncoment to add domain whitelist
   images: {
     unoptimized: true,
+    domains: ['doubanio.com', 'images.weserv.nl'],
     remotePatterns: [
       {
         protocol: 'https',
